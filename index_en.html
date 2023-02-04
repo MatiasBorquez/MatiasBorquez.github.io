@@ -23,10 +23,10 @@
                             href="#">About me</a>
                         <a class="btn btn-info p-1 m-1"
                             href="https://github.com/MatiasBorquez?tab=repositories">Portfolio</a>
-                        <a class="btn btn-info p-1 m-1"
-                            href="formularioContactoEn.html">Contact</a>
+                        <!--<a class="btn btn-info p-1 m-1"
+                            href="formularioContactoEn.html">Contact</a>-->
                         <a class="btn btn-info p-1 m-1" href="cvEn.html">CV</a>
-                        <a href="index_es.html">
+                        <a href="index.html">
                             <image src="img/espana.png" class="rounded img-lenguages lenguague"></image>
                         </a>
                         <a href="#">
@@ -45,12 +45,11 @@
                 <h2>Junior Developer</h2>
             </div>
             <div>
-                <div class="row p-lg-3">
-                    <div class="col-3">
-                        <img class="foto rounded border border-primary" src="img/cv.jpg" alt="Developer photo" />
+                <div class="contenedor">
+                    <div class="column-left">
+                        <img class="foto rounded border border-primary " src="img/cv.jpg" alt="Developer photo" />
                     </div>
-                    <div class="col-1"></div>
-                    <div class="col-7 row justify-content-center">
+                    <div class="column-right justify-content-center">
                         <h3 class="text-center ">About me</h3>
                         <p>Let me introduce myself. I am Matias Borquez and I am a young programmer with skills in various programming 
                             languages. I specialize in Python, JavaScript, MySQL, HTML5, CSS5, and Java. Additionally, I am still in
@@ -59,78 +58,80 @@
                             skills and collaborate on innovative projects. My goal is to become an expert programmer and use my skills 
                             to contribute to the growth and development of companies and society as a whole.
                         </p>
-                        <a class="btn btn-info" href="cvEn.html">View CV</a>
+                        <a class="btn btn-info btn-sm btn-cv rounded" href="cvEn.html" >View CV</a>
                     </div>
                 </div>
             </div>
-            <div class="row p-lg-3">
-                <div class="col-3">
+            <div class="contenedor-borrar">
+
+                <div class="column-left">
                     <h4>Me skills</h4>
                     <ul>
                         <li>HTML & CSS <i class="fa-brands fa-css3-alt m"> <i class="fa-brands fa-html5"></i></i></li>
                         <li>JavaScript   <i class="fa-brands fa-js"></i> </li>
                         <li>MySql   <i class="fa-solid fa-database"></i></li>
-                        <li>Java and framework Spring   <i class="fa-brands fa-java"></i></li>
-                        <li>Python and fastApi   <i class="fa-brands fa-python"></i></li>
+                        <li>Java & framework Spring   <i class="fa-brands fa-java"></i></li>
+                        <li>Python & fastApi   <i class="fa-brands fa-python"></i></li>
                         <li>Git   <i class="fa-brands fa-square-git"></i></li>
                     </ul>
                 </div>
-                <div class="col-1"></div>
-                <div class="slider">
-                    <div class="slides">
-                        <!--radio buttons-->
-                        <input type="radio" name="radio-btn" id="radio1">
-                        <input type="radio" name="radio-btn" id="radio2">
-                        <input type="radio" name="radio-btn" id="radio3">
-                        <input type="radio" name="radio-btn" id="radio4">
-                        <!--sider de imagenes-->
-                        <div class="slide first">
-                            <img class="rounded img-lenguages" src="./img/html.png" alt="">
+                <div class="borrar">
+                    <div class="slider column-right-2">
+                        <div class="slides">
+                            <!--radio buttons-->
+                            <input type="radio" name="radio-btn" id="radio1">
+                            <input type="radio" name="radio-btn" id="radio2">
+                            <input type="radio" name="radio-btn" id="radio3">
+                            <input type="radio" name="radio-btn" id="radio4">
+                            <!--sider de imagenes-->
+                            <div class="slide first">
+                                <img class="rounded img-lenguages" src="./img/html.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img class="rounded img-lenguages" src="./img/CSS3.png" alt="">
+                            </div>
+                            <div class="slide second">
+                                <img class="rounded img-lenguages" src="./img/javascript.png" alt="">
+                            </div>
+                            <div class="slide second">
+                                <img class="rounded img-lenguages" src="./img/sql.png" alt="">
+                            </div>
+                            <div class="slide third">
+                                <img class="rounded img-lenguages" src="./img/java.png" alt="">
+                            </div>
+                            <div class="slide third">
+                                <img class="rounded img-lenguages" src="./img/spring.png" alt="">
+                            </div>
+                            <div class="slide quarter">
+                                <img class="rounded img-lenguages" src="./img/python.png" alt="">
+                            </div>
+                            <div class="slide quarter">
+                                <img class="rounded img-lenguages" src="./img/git.png" alt="">
+                            </div>
+                            <!--automatic navigation-->
+                            <div class="navigation-auto">
+                                <div class="auto-btn1"></div>
+                                <div class="auto-btn2"></div>
+                                <div class="auto-btn3"></div>
+                                <div class="auto-btn4"></div>
+                            </div>
                         </div>
-                        <div class="slide">
-                            <img class="rounded img-lenguages" src="./img/CSS3.png" alt="">
+                        <!--manual navegation-->
+                        <div class="navigation-manual text-center">
+                            <label for="radio1" class="manual-btn"></label>
+                            <label for="radio2" class="manual-btn"></label>
+                            <label for="radio3" class="manual-btn"></label>
+                            <label for="radio4" class="manual-btn"></label>
                         </div>
-                        <div class="slide second">
-                            <img class="rounded img-lenguages" src="./img/javascript.png" alt="">
-                        </div>
-                        <div class="slide second">
-                            <img class="rounded img-lenguages" src="./img/sql.png" alt="">
-                        </div>
-                        <div class="slide third">
-                            <img class="rounded img-lenguages" src="./img/java.png" alt="">
-                        </div>
-                        <div class="slide third">
-                            <img class="rounded img-lenguages" src="./img/spring.png" alt="">
-                        </div>
-                        <div class="slide quarter">
-                            <img class="rounded img-lenguages" src="./img/python.png" alt="">
-                        </div>
-                        <div class="slide quarter">
-                            <img class="rounded img-lenguages" src="./img/git.png" alt="">
-                        </div>
-                        <!--automatic navigation-->
-                        <div class="navigation-auto">
-                            <div class="auto-btn1"></div>
-                            <div class="auto-btn2"></div>
-                            <div class="auto-btn3"></div>
-                            <div class="auto-btn4"></div>
-                        </div>
+                        <script type="text/javascript">
+                            var counter = 1;
+                            setInterval(function(){
+                                document.getElementById('radio' + counter).checked = true;
+                                counter++;
+                                if(counter > 4){counter = 1}
+                            },5000);
+                        </script>
                     </div>
-                    <!--manual navegation-->
-                    <div class="navigation-manual text-center">
-                        <label for="radio1" class="manual-btn"></label>
-                        <label for="radio2" class="manual-btn"></label>
-                        <label for="radio3" class="manual-btn"></label>
-                        <label for="radio4" class="manual-btn"></label>
-                    </div>
-                    <script type="text/javascript">
-                        var counter = 1;
-                        setInterval(function(){
-                            document.getElementById('radio' + counter).checked = true;
-                            counter++;
-                            if(counter > 4){counter = 1}
-                        },5000);
-                    </script>
                 </div>
                 
             </div>
@@ -142,7 +143,7 @@
 
     <footer>
         <div class="container">
-            <nav class="navbar" data-bs-theme="dark">
+            <nav class="nav navbar nav-right">
                 <div class="container-fluid">
                     <a class="navbar-brand"></a>
                     <nav class="d-flex">
@@ -150,10 +151,10 @@
                             href="#">About me</a>
                         <a class="btn btn-info p-1 m-1"
                             href="https://github.com/MatiasBorquez?tab=repositories">Portfolio</a>
-                        <a class="btn btn-info p-1 m-1"
-                            href="formularioContactoEn.html">Contact</a>
+                        <!--<a class="btn btn-info p-1 m-1"
+                            href="formularioContactoEn.html">Contact</a>-->
                         <a class="btn btn-info p-1 m-1" href="cvEn.html">CV</a>
-                        <a href="index_en.html">
+                        <a href="index.html">
                             <image src="img/espana.png" class="rounded img-lenguages lenguague"></image>
                         </a>
                         <a href="#">
