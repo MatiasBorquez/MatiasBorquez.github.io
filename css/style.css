@@ -64,6 +64,8 @@ i{
     float: right;
 }
 
+
+
 @media screen and (max-width:768px) {
     .contenedor{
         width: 100%;
@@ -82,6 +84,36 @@ i{
     .column-right{
         width: 100%;
         height: 27rem;
+    }
+
+    .contenedor-borrar{
+        width: 100%;
+        height: 15rem;
+        justify-content: center;
+    }
+    footer{
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .contenedor{
+        width: 100%;
+        height: 47rem;
+        display: flow-root;
+    }
+
+    .column-left{
+        width: 100%;
+        height: 15rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    .column-right{
+        width: 100%;
+        height: 34rem;
     }
 
     .contenedor-borrar{
@@ -203,7 +235,7 @@ i{
 }
 
 #radio1:checked ~ .first{
-    margin-left: 3%;
+    margin-left: 4%;
 }
 
 #radio2:checked ~ .first{
